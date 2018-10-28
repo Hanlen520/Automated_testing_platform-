@@ -12,7 +12,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/json;'
 Vue.prototype.$static = ''
 
 // ********配置接口地址********
-axios.defaults.baseURL = 'http://10.188.60.81:9901'
+axios.defaults.baseURL = url
 
 
 var loadingInstance
